@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #141414;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #e50914;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+.logo:hover{
+    background-color: #0056b3;
+}
+@media(max-width:768px){
+    .logo{
+        padding: 8PX 16px;
+        font-size: 14px;
+    }
+    }@media(max-width:480px){
+    .logo{padding: 6px 12px;
+        font-size: 12px;
+    }
+    }
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta {
+    background-color: #e50914;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+.cta:hover{
+    background-color: #0056b3;
+}
+@media(max-width:768px){
+.btn{
+    padding: 8PX 16px;
+    font-size: 14px;
+}
+}@media(max-width:480px){
+.btn{
+    padding: 6px 12px;
+    font-size: 12px;
+}
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('netflex\ logo.jpg');
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.features {
+    padding: 50px 20px;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-item {
+    background-color: #333;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+.feature-item:hover{
+    background-color: #0056b3;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
